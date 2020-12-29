@@ -7,9 +7,12 @@
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 20px;
+
+  -ms-overflow-style: none; /* IE and Edge  to remove scrollbar*/
+  scrollbar-width: none; /* Firefox to remove scrollbar */
 }
 .row_posters::-webkit-scrollbar {
-  /* to remove scroll-bar */
+  /* to remove scroll-bar in chrome */
   display: none;
 }
 
